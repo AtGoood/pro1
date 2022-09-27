@@ -5,9 +5,11 @@ import java.io.*;
 public class Serialitation  {
 
 
+
+
     public void Serilazie()
     {
-dataobj data1=new dataobj();
+        dataobj data1=new dataobj();
         dataobj data2=new dataobj(10);
         dataobj data3=new dataobj(10,20.5f);
         dataobj data4=new dataobj(10,20.5f,"hello");
@@ -29,7 +31,23 @@ dataobj data1=new dataobj();
         }
         System.out.println("serialized");
     }
-    public void run()
+    public void Serilazie(String data)
+    { System.out.println(data);
+        try (FileOutputStream file =new FileOutputStream("save.ser") )
+        {
+            ObjectOutputStream oss = new ObjectOutputStream(file);
+            oss.writeObject(data);
+          //  oss.writeObject(data4);
+            oss.flush();
+        }
+        catch (IOException e) {
+            System.out.println("err:"+e.getMessage());
+            return;
+        }
+        System.out.println("serialized");
+
+    }
+        public void run()
     {this.Serilazie();
         try (FileInputStream file =new FileInputStream("save.ser") )
         {
