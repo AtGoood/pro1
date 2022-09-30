@@ -1,9 +1,12 @@
 package step.learing;
 
+import step.learing.oop.Anno.DemmoClass;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Scanner;
+@DemmoClass
 public class Dictionary
 {
    public HashMap<String,String> map;

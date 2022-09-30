@@ -1,8 +1,5 @@
 package step.learing.oop.Anno;
-import step.learing.oop.files.FileD;
 
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
 public class Anatation
 {public void run()
 {

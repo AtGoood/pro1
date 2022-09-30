@@ -1,12 +1,13 @@
 package step.learing.oop;
 
+import step.learing.oop.Anno.DemmoClass;
 import step.learing.oop.serial.Serialitation;
 import step.learing.oop.serial.dataobj;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
+@DemmoClass
 public class Library {
     private final List<Literature> funds ;
 
