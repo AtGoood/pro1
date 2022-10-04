@@ -3,7 +3,9 @@ package step.learing.Services;
 import javax.inject.Singleton;
 
 @Singleton
+public interface TimeProvder {
 
-public interface RandomProvider {
-    int getN();
+
+    String getDate();
+    String getTime();
 }
