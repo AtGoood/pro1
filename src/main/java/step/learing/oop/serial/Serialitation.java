@@ -24,6 +24,7 @@ public class Serialitation  {
             oss.writeObject(data1);
             oss.writeObject(data4);
             oss.flush();
+
         }
         catch (IOException e) {
             System.out.println("err:"+e.getMessage());
