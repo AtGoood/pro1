@@ -242,7 +242,7 @@ public class App {
     System.out.println("Date:"+timeService.getDate());
     System.out.println("time:"+timeService.getTime());
     //  new SyncDemo().Demo();
-
+//d
          /*   // Определяем текущий класс
             Class<?> currentClass = Main.class ;
             // Извлечь из имени класса имя пакета

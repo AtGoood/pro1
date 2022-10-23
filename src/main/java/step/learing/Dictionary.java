@@ -25,7 +25,7 @@ public class Dictionary
             System.out.printf("%s--%s\n",key,map.get(key));
 
         }
-    }
+    }//d
     public void TranslationEng()
     {
         Scanner kbScanner=new Scanner(System.in);

@@ -14,7 +14,7 @@ public class complex {
         for(int i=0;i<4;i++)
         {
             System.out.println(arr1[i]);
-        }
+        }//d
         int j=0;
         for(;j<arr2.length;j++)
         {

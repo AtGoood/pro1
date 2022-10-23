@@ -15,7 +15,7 @@ public class TimeService implements TimeProvder{
         String  timeStamp = new SimpleDateFormat("yyyy MM dd").format(Calendar.getInstance().getTime());
         return (timeStamp);
 
-    }
+    }//d
    public String getTime()
     {
       String a;

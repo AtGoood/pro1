@@ -11,7 +11,7 @@ public class DataType
                 ConsoleColors.BLUE + "Hello, " +
                         ConsoleColors.PURPLE + "World!" +
                         ConsoleColors.RESET
-        );
+        );//d
         String s1 = new String("Hello");
         String s2 = new String("Hello");
         if(s1 == s2) System.out.println("==");

@@ -25,5 +25,5 @@ public static void main(String[]args)
     Injector injector= Guice.createInjector(new ConfigModule());
     App app=injector.getInstance(App.class);
     app.run();
-}
+}//d
 }
